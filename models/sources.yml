@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: powerflow
+    database: powerflow
+    schema: public
+    tables:
+      - name: registrations
+      - name: appsflyer_raw
+      - name: google_adds
+      - name: transactions
